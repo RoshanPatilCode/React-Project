@@ -1,0 +1,26 @@
+.container{
+    height: 50px;
+    width: 800px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button{
+    width: 200px;
+    margin-left: 2px;
+    border: 1px solid;
+    /* border-radius: 10px; */
+    background-color: rgb(206, 241, 206);
+}
+
+.container button:first-child{
+        border-radius: 10px 0px 0px 10px;
+    
+}
+
+.btn{
+    border-radius: 0px 10px 10px 0px;
+}
