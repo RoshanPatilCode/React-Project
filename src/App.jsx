@@ -1,19 +1,18 @@
-import { useState } from 'react'
-import Container from './Components/Container'
-import AppName from './Components/AppName'
-import ButtonContainer from './Components/ButtonContainer/ButtonContainer'
-import AddTaskBar from './Components/AddTask/AddTaskBar'
 
+import './App.css'
+import FormsPage from './Components/FormsPage'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+  
 
   return (
-    <Container>
-      <AppName></AppName>
-      <ButtonContainer></ButtonContainer>
-      <AddTaskBar></AddTaskBar>
-    </Container>
+    <center>
+      <header>
+        <h1>Patil's Tele-Communications</h1>
+      </header>
+      <FormsPage ></FormsPage>
+    </center>
   )
 }
 
